@@ -15,6 +15,7 @@ query {
         id
         title
         category
+        text
         author {
             id
             name
@@ -25,6 +26,23 @@ query {
 ```
 Click on `>` button to see results in right-hand panel.
 
+### Write a post
+
+```
+mutation {
+    writePost(title: "New Post", text: "Text", category: null, author: "Author5") {
+        id
+        title
+        category
+        text
+        author {
+            id
+            name
+            thumbnail
+        }
+    }
+}
+```
 
 ### GraphiQL Native GUI
 
