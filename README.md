@@ -1,5 +1,7 @@
 # Getting Started
 
+Base code taken from https://www.baeldung.com/spring-graphql
+
 ## Run application
 `./gradlew bootRun`
 
